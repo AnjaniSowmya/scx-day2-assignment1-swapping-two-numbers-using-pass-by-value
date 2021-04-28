@@ -1,6 +1,6 @@
 body{
     background-color: rgb(181, 243, 152);
-    border: 20px solid green;
+    border: 20px solid rgb(22, 61, 22);
     padding: 80px;
     margin: 15px;
     text-align: center;
@@ -13,10 +13,11 @@ h3{
 button{
     font-size: 15px;
     font-style: oblique;
+    background-color:  rgb(170, 184, 170);
 
 }
 #demo{
-    font-size: 20px;
+    font-size: 15px;
     font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
