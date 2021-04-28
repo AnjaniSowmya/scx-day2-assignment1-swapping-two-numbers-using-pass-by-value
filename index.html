@@ -20,14 +20,16 @@
 function myFunction() {
   var num1 = prompt("Enter number 1", );
   var num2 = prompt("Enter number 2", );
-  var temp;
-  temp=num1;
-  num1=num2;
-  num2=temp;
-  document.getElementById("demo").innerHTML =
-  "Numbers after swapping: <br>" + num1 + ", "+ num2
+  swap(num1,num2);
+  console.log(`The value of a after swapping: ${num1}`);
+  console.log(`The value of b after swapping: ${num2}`);
+  function swap(a,b){
+    var temp;
+    temp=num1;
+    num1=num2;
+    num2=temp;
+  }
  }
 </script>
 
-</m>
 </html>
