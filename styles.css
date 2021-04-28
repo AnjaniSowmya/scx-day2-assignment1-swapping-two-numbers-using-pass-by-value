@@ -1,23 +1,25 @@
 body{
-    background-color: rgb(181, 243, 152);
-    border: 20px solid rgb(22, 61, 22);
+
+    margin: 0;
     padding: 80px;
-    margin: 15px;
+    background: linear-gradient(45deg,#94c9c2,#35848f);
+    height: auto;
     text-align: center;
     
 }
+
 h3{
     font-style: oblique;
     
 }
 button{
-    font-size: 18px;
+    font-size: 15px;
     font-style: oblique;
-    background-color:  rgb(170, 184, 170);
+    background-color:  rgb(222, 248, 240);
 
 }
 #demo{
-    font-size: 15px;
+    font-size: 18px;
     font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
